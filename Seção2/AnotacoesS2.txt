@@ -1,0 +1,12 @@
+Anotações:
+
+- Console.log() -> é a saida do JS.
+
+- let == var (mas tem diferenças).
+
+- Variaveis podem ser mudados.
+- nome = "Gustavo" -> isso cria uma variavel global, pois não tem var ou let antes.
+- Constantes não podem mudar -> ja tenho que colocar um valor na constante.
+
+- Usar o template strings para fazer saida.
+
