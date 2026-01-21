@@ -10,3 +10,23 @@ Anotações:
 
 - Usar o template strings para fazer saida.
 
+- + -> adição e concatenação (com string).
+
+- parseInt('num') -> converte para number.
+- parseFloat().
+- Number() -> qualquer um dos dois.
+
+- alert(); -> alerta na tela.
+- confirm(); -> caixa com "sim" e "não".
+- prompt(); -> caixa para digitar dentro.
+
+- ixdexof() e lastIndexOf() -> mostra o indice que tal string ta dentro de outra.
+- replace(--,--) -> troca uma string por outra.
+- length -> tamanho da string.
+- slice(--,--) -> fatia.
+
+
+// copiar no caderno amanhã
+- toString() -> passa de number para string.
+- toFixed() -> coloca quando casas decimais a gente quer.
+
