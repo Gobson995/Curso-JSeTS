@@ -30,3 +30,17 @@ Anotações:
 - toString() -> passa de number para string.
 - toFixed() -> coloca quando casas decimais a gente quer.
 
+- math -> função que tem varias coisas da matematica.
+
+- push() -> adiciona no final do array.
+- unshift() -> adiciona no começo do array e move os outros para o lado.
+- pop() -> remove do final. (tem como colocar esse elemendo removido para outra variavel).
+
+- Funções são iguais em c++.
+
+- Eu posso referenciar o objeto e qualquer atibruto desse objeto dentro dentro dele mesmo.
+- Para fazer o que esta acima -> this.
+- Objetos são muito importantes, é o coração da linguagem.
+
+- Valores primitivos são imutáveis.
+- Valores por referencia são mutáveis.
