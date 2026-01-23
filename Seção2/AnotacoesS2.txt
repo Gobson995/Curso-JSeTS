@@ -38,7 +38,7 @@ Anotações:
 
 - Funções são iguais em c++.
 
-- Eu posso referenciar o objeto e qualquer atibruto desse objeto dentro dentro dele mesmo.
+- Eu posso referenciar o objeto e qualquer atibruto desse objeto dentro dele mesmo.
 - Para fazer o que esta acima -> this.
 - Objetos são muito importantes, é o coração da linguagem.
 

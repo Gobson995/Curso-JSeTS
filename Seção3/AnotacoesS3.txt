@@ -1,0 +1,16 @@
+Anotações:
+
+- Operadores de comparação ão iguais ao da matemática.
+- Usar os estritos porque eles olham para o VALOR e o TIPO.
+
+- Operados lógicos seguem a mesma lógica de sempre.
+
+- Curto-Circuito (short-circuit evaluation)
+  - Analisar da esquerda para direita. Quando encontra algo que define o final, retorna o valor e não TRUE ou FALSE.
+  && -> Retorna o primeiro false, null, undefined, 0, "", NaN.
+     -> Se nenhum for falso, retorna o ultimo.
+
+  || -> Retorna o primeiro verdadeiro.
+     -> Se nenhum for verdadeiro, retorna o ultimo.
+
+- if, else if e else -> igual sempre.
