@@ -17,3 +17,16 @@ Anotações:
 
 - Operados ternários
    - condição ? caso for verdade : caso for falso
+
+- Switch/Case -> igual sempre.
+
+- Let  tem escopo de bloco {... bloco}.
+- Var só tem escopo de função.
+
+- Tem como ter array dentro de array. Ex: array[i][j].
+- Usa a virgula para pular o que não quer do array (metodo pior).
+
+- Se achar algo que esta dentro do objeto, pelo mesmo nome, é bem mais facil.
+
+- for in -> for (let i in NOME) -> retorna o indice
+- for of -> for (let i of NOME) 0> retorna o valor -> não funciona com objetos
