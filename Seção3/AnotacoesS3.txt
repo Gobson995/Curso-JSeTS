@@ -28,5 +28,18 @@ Anotações:
 
 - Se achar algo que esta dentro do objeto, pelo mesmo nome, é bem mais facil.
 
-- for in -> for (let i in NOME) -> retorna o indice
-- for of -> for (let i of NOME) 0> retorna o valor -> não funciona com objetos
+- for in -> for (let i in NOME) -> retorna o indice.
+- for of -> for (let i of NOME) 0> retorna o valor -> não funciona com objetos.
+- while (condição de parada) -> igual c++.
+- do {...} while (condição) -> mesma coisa, mas executa o que esta dentro do DO e depois verifica
+
+- break -> encerra o laço imediatamente
+- continue -> encerra apenas a "volta" atual, não fazendo o que está abaixo dele dentro do laço
+
+- try {} -> tenta executar
+- catch {} -> executa se o try der errado
+- throw {} -> cria um erro
+- finally {} -> é sempre executado
+
+- setInterval (o que faz, tempo em ms);
+- setTimeout (o que faz, quanto tempo para executar);

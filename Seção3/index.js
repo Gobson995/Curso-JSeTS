@@ -67,3 +67,54 @@ const alfabeto = "abcde"
 for (let valor of alfabeto) {
   console.log(valor);
 }
+
+const min = 1;
+const max = 6;
+let rand = 5;
+
+do {
+  let r = Math.random() * (max - min) + min;
+  rand = Math.floor(r);
+  console.log(rand);
+} while (rand !== 5);
+
+// Tratamento de erros
+
+function soma (x, y) {
+  if (typeof x !== 'number' || typeof y !== 'number') {
+    throw new Error ('x e y precisam ser numeros!');
+  }
+
+  return x + y;
+}
+
+console.log(soma(10, 20));
+
+try {
+  console.log(soma(10, '20'));
+} catch {
+  console.log('Deu erro, estão eu mostro isso');
+} finally {
+  console.log('Eu sempre funciono');
+}
+
+// setInterval e setTimeout
+
+let ops = 1;
+
+function contador(a) {
+  return a + 1;
+}
+
+const conta = setInterval(function() {
+  console.log(ops);
+  ops = contador(ops);
+}, 1000);
+
+setTimeout(function() {
+  clearInterval(conta);
+}, 3500);
+
+setTimeout(function() {
+  console.log('Opa');
+}, 5000);
