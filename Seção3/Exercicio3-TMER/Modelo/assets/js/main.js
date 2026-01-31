@@ -25,14 +25,20 @@ function iniciaTimer () {
 
 iniciar.addEventListener('click', function(event) {
   iniciaTimer();
+  relogio.classList.remove('pausado');
+  relogio.classList.add('andando');
 });
 
 pausar.addEventListener('click', function(event) {
   clearInterval(timer);
+  relogio.classList.remove('andando');
+  relogio.classList.add('pausado');
 });
 
 zerar.addEventListener('click', function(event) {
   clearInterval(timer);
   segundos = 0;
   relogio.innerHTML = criaHoraDosSegundos(segundos);
+  relogio.classList.remove('pausado');
+  relogio.classList.remove('andando');
 });
