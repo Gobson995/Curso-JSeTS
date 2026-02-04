@@ -1,0 +1,39 @@
+Anotações:
+
+- Jeitos de declarar uma função:
+  - firs-class object -> pode ser usada como um dado
+  - arrow function -> outro jeito de declarar que tem uma diferença com o THIS
+  - funcão pode ser passada dentro de um objeto ou como parametro de outra função
+
+- Parametros:
+  - funções podem carregar ARGUMENTS.
+  - podem enviar mais parametros que a função tem.
+  - pode usar o rest (...).
+  - arrow function não tem ARGUMENTS.
+
+- Retorno:
+  - return -> termina a função.
+  - mas tem função que não retorna nada
+  - clousers (fechamento) -> retorna uma função que ja vem com um valor dentro passado anteriormente (preso na fabrica).
+
+- Sempre que algo for chamado ele busca no escopo mais proximo, se não achar, dá erro.
+
+- Função de Callback:
+  - chama depois que tal coisa acontecer.
+  - é passar uma função de parametro para outra função.
+  - ANALOGIA DO PEDIDO DO RESTAURANTE.
+
+- Função Imediata IIFE
+  - é executada imediatamente.
+  - função anonima que não esta no escopo global.
+
+- Função Fabrica == factory function:
+  - funções que retornam obejtos.
+  - serve para criar vários objetos sem precisar repetir o código.
+  - this. -> se refere ao proprio objeto que esta sendo criado.
+          -> unico metodo de visitar um objeto vizinho.
+  - get (getter) -> transforma uma função em um atributo.
+                 -> serve para ler um valor processado.
+                 -> chama sem os parenteses.
+  - set (setter) -> serve para alteral/interpretar um valor.
+                 -> é ativado automaticamente que usamos o "=". 
