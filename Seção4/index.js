@@ -131,3 +131,36 @@ console.log(p1.imc);
 p1.nomeCompleto = 'Rubem Paulo Zanatta';
 console.log(p1.nome);
 console.log(p1.sobrenome);
+
+// função construtora
+function Pessoa(nome, sobrenome) {
+  this.nome = nome;
+  this. sobrenome = sobrenome;
+
+  this.metodo = function() {
+    console.log(this.nome + ': sou um metodo');
+  };
+}
+const pessoa1 = new Pessoa('Gustavo', 'Bada');
+pessoa1.metodo();
+
+// função recursiva
+function recursiva(max) {
+  if (max > 10) return;
+  max++;
+  console.log(max);
+  recursiva(max);
+}
+recursiva(5);
+
+// função geradora
+function* geradora1() {
+  yield 'valor 1';
+  yield 'valor 2';
+  yield 'valor 3';
+}
+const g1 = geradora1();
+console.log(g1.next().value);
+console.log(g1.next().value);
+console.log(g1.next().done);
+console.log(g1.next());

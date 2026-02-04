@@ -37,3 +37,20 @@ Anotações:
                  -> chama sem os parenteses.
   - set (setter) -> serve para alteral/interpretar um valor.
                  -> é ativado automaticamente que usamos o "=". 
+
+- Função Construtora:
+  - começa com letra maiscula.
+  - é chamada pelo "new".
+  - o "this" se refere ao novo objeto que esta sendo criado.
+  - não precisa de return.
+  - economizam memoria e tem o mesmo uso que as factory function.
+
+- Função Recursiva:
+  - Retorna/chama ela mesma, até dar certo.
+
+- Função Geradora:
+  - function*.
+  - pode pausar a execução e continuar depois.
+  - usa yield ao inves do return.
+  - usa o next() para ir para a proxima saida.
+  - tem o value e o done(ainda tem mais ou não).
