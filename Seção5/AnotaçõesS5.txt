@@ -1,0 +1,28 @@
+Anotações:
+
+- delete -> remove o elemtneot, mas não o indice.
+- Pode usar o construtor -> new...
+- Valor por referencia, quando muda em um reflete no outro.
+- se usar "..." ele só copia.
+
+- number.MAX_VALUE -> maior numero de todos no js.
+- splice() -> faz a função de todos (ta no index.js).
+
+- concat() - concatena.
+- Pode usar o ...rest ou ...spread para espalhar em outro array (funciona para objetos também).
+- O sinal de "+" não funciona como o esperado.
+
+- filter() -> passa todos os elementos de um array, se for TRUE, entra na nova lista.
+           -> não altera o original.
+           -> passa por uma função de callback.
+- map() -> mesma coisa do filter.
+        -> retorna o valor com um valor diferente.
+        -> retorna do mesmo tamanho.
+-reduce() -> reduz em um unico valor.
+          -> tem um acumulador que tem que ser retornado.
+          -> precisa de um valor pro acumulador -> segundo parametro.
+- pode usar os três juntos.
+
+- forEach() -> dentro de arrays.
+          -> usa igual as outras "funções" prontas.
+          -> ele não precisa te devolver nada.
