@@ -1,0 +1,29 @@
+Anotações:
+
+- Obejeto precisa da chave e do valor, sempre.
+- freeze() -> trava o objeto, não muda mais.
+
+- defineProperty (OBEJTO QUE QUER, NOME DA CHAVE, OBJETO COM AS CONFIGS);
+  -> define ou altera uma única propriedade de um objeto.
+- defineProperties (OBEJTO QUE QUER, PROPRIEDADES);
+  -> permite várias de uma vez só.
+- OBS: Criam propriedades com regras especificas.
+
+- Getters -> obter o valor.
+- Setters -> configurar o valor.
+
+- Copiar sem passar usando ...spread.
+- getOwnPropertyDescriptor -> descreve as configs do objeto.
+
+- Prototypes:
+  - passa propriedades e métodos de um objeto para outro.
+  - se refere ao que foi criado pela primeira vez, servindo de molde para o futuro.
+  - __proto__ -> fica dentro do pai.
+  - prototype é um objeto que já está atrelado na função.
+  - isso melhora a performance do programa.
+  - isso já é a herança.
+
+  - Object.setPrototypeOf(RECEBE, DÁ) ->  um objeto recebe o proto de outro.
+  - um vai passando pelo outro.
+  - pode reaproveitar códigos.
+  - Object.create() -> cria um objeto e já escolhe um pai/prototype para ele.
