@@ -27,3 +27,13 @@ Anotações:
   - um vai passando pelo outro.
   - pode reaproveitar códigos.
   - Object.create() -> cria um objeto e já escolhe um pai/prototype para ele.
+
+- Polimorfismo:
+  - Fazer métodos se comportarem como subclasses...
+  - Objetos diferentes responderem ao mesmo comando, cada um do seu jeito.
+  - Classe pai com várias classes filhas se adaptando.
+
+- Obejeto Map():
+  - É uma estrutura de dados.
+  - Usa set para criar/configurar o valor.
+  - Usa get para obter o valor.
