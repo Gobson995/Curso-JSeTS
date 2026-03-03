@@ -1,0 +1,14 @@
+Anotações:
+
+- Classes == funcão construtora.
+    - quase sempre precisa do constructor() {}... para ser passado os parametros.
+    - já faz o prototype "automatico".
+
+- Symbol() -> simula uma propriedade privada (escondida).
+- Por baixo dos panos o GET e SET são uma função.
+- GET e SET serve para validação e regras de negócios.
+- Ou calcular algo na hora sem deixar na memoria.
+
+- Classe pode herdar de outra classe.
+- Usa [ class FILHA extends PAI ] e herda tudo.
+- super() -> chama a classe pai para o constructor da filha.
