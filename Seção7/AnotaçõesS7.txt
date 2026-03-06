@@ -12,3 +12,9 @@ Anotações:
 - Classe pode herdar de outra classe.
 - Usa [ class FILHA extends PAI ] e herda tudo.
 - super() -> chama a classe pai para o constructor da filha.
+
+- Métodos de instância e estáticos:
+                new       static
+    - estatico: só consigo acessar pela classe. Não tem acesso a instância (não ta criando um novo objeto).
+    
+- Revisão do exercicio no caderno.

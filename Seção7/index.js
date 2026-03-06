@@ -143,7 +143,30 @@ for (let i = 0; i < 200; i++) {
     s1.usando();
     console.log('Bateria atual: ' + s1.nivelBateria);
 
-    if(s1.nivelBateria == 0) return;
+    if(s1.nivelBateria == 0) break;
 }
+
+// pular linha
+console.log();
+console.log();
+
+class Saudacao {
+    constructor (nome) {
+        this.nome = nome;
+    }
+
+    saudacaoNome() {
+        console.log("Olá " + this.nome + "! Como você esta?");
+    }
+
+    static soSaudacao() {
+        console.log("Olá! Como você esta?");
+    }
+}
+
+const chamar = new Saudacao('Rubinho');
+chamar.saudacaoNome();
+
+Saudacao.soSaudacao();
 
 
