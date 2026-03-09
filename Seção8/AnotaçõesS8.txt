@@ -1,0 +1,25 @@
+Anotações:
+
+- Promisses:
+    - Fazer as coisas ficarem em ordem sincrona.
+    - Sem precisar de função de callback.
+    - Vai encadeando com then e trata o erro com catch.
+    - Serve para quando for mexer com banco de dados e etc. Quando precisar de uma ordem de execução das funções.
+
+- Metodos das Promisses:
+    - promise.all ([promessa1, promessa2])
+        -> Recebe um array de promessas e espera todos serem resolvidos. Se uma der errado, o promise.all falha.
+        -> Usar quando 3 APIs diferentes precisam carregar juntas.
+    - promise.race ([promessa1, promessa2])
+        -> corrida das promessas. A que terminar primeiro (com erro ou sem) retorna o resultado e as outras são ignoradas.
+        -> usar junto com timeouts.
+
+    - promise.resolve (valor)
+        -> ja vem resolvida.
+    - promise.reject (motivo)
+        -> ja vem com o erro.
+
+- Async / Await :
+    - Coloca ASYNC antes da função e ela vai retornar uma promise automaticamente.
+    - Coloca AWAIT e o codigo só vai para a linha de baixo quando o AWAIT for resolvido.
+    - Usa  TRY / CATCH como tratamento de erro.
