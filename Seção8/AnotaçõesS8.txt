@@ -23,3 +23,16 @@ Anotações:
     - Coloca ASYNC antes da função e ela vai retornar uma promise automaticamente.
     - Coloca AWAIT e o codigo só vai para a linha de baixo quando o AWAIT for resolvido.
     - Usa  TRY / CATCH como tratamento de erro.
+
+- XMLHttpRequest (ajax):
+    - Antigo e não muito usado. Busca outro servidor sem recarregar a página.
+    - Código feio e dificil de ler.
+    - As promisses vieram para ajudar.
+    - Ninguém mais usa.
+    - PASTA AJAX QUE EU FIZ/COPIEI É O CODIGO QUE NINGUEM MAIS USA.
+
+- Fetch API:
+    - Padrão moderno.
+    - Usa promises (async / await).
+    - Usa bastante.
+    - TEM O CODIGO DE EXEMPLO.
