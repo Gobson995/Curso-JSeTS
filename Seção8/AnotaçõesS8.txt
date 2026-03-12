@@ -36,3 +36,13 @@ Anotações:
     - Usa promises (async / await).
     - Usa bastante.
     - TEM O CODIGO DE EXEMPLO.
+
+- JSON:
+    - Idioma universal da internet.
+    - É assim que vem os dados de uma API.
+
+- Axios:
+    - É uma biblioteca externa.
+    - Ja transforma direto para JSON.
+    - Sintaxe limpa.
+    - Deixa o tratamento de erro mais facil.
